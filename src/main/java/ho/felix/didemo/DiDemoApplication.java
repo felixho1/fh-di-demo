@@ -1,5 +1,6 @@
 package ho.felix.didemo;
 
+import ho.felix.didemo.config.DataSourceConfig;
 import ho.felix.didemo.controllers.ConstructorInjectedController;
 import ho.felix.didemo.controllers.GetterInjectedController;
 import ho.felix.didemo.controllers.MyController;
@@ -21,5 +22,8 @@ public class DiDemoApplication {
         System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
         System.out.println(ctx.getBean(GetterInjectedController.class).sayHello());
         System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
+
+        System.out.println(ctx.getBean(DataSourceConfig.class).getPassword());
+        System.out.println(ctx.getBean(DataSourceConfig.class).getRsPassword());
     }
 }
