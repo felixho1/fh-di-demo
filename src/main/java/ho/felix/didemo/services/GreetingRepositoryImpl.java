@@ -1,8 +1,11 @@
 package ho.felix.didemo.services;
 
+import org.springframework.stereotype.Repository;
+
 /**
  * Created by jt on 5/24/17.
  */
+@Repository
 public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
