@@ -1,0 +1,16 @@
+# This is comment
+name: Felix
+
+names:
+  - Justin
+  - Tristan
+
+book:
+  author: Flora Wang
+  title: Machine can learn
+
+truth: yes #yes, True, true
+false: false #no, False, false
+
+quote_string: "This is it's proven"
+colon_string: "Suburbs: Oakleigh, Huntingdale, Clayton"

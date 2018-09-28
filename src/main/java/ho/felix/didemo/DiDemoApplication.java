@@ -25,5 +25,6 @@ public class DiDemoApplication {
 
         System.out.println(ctx.getBean(DataSourceConfig.class).getPassword());
         System.out.println(ctx.getBean(DataSourceConfig.class).getRsPassword());
+        System.out.println(ctx.getBean(DataSourceConfig.class).getDriver());
     }
 }
