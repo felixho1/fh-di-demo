@@ -1,0 +1,4 @@
+felix:
+  jms:
+    user: fhoJmsUser
+    password: fhoJmsPassw0rd

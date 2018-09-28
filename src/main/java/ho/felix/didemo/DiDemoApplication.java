@@ -1,5 +1,6 @@
 package ho.felix.didemo;
 
+import ho.felix.didemo.config.ApplicationConfig;
 import ho.felix.didemo.config.DataSourceConfig;
 import ho.felix.didemo.controllers.ConstructorInjectedController;
 import ho.felix.didemo.controllers.GetterInjectedController;
@@ -26,5 +27,7 @@ public class DiDemoApplication {
         System.out.println(ctx.getBean(DataSourceConfig.class).getPassword());
         System.out.println(ctx.getBean(DataSourceConfig.class).getRsPassword());
         System.out.println(ctx.getBean(DataSourceConfig.class).getDriver());
+
+        System.out.println(ctx.getBean(ApplicationConfig.class).getFelixJmsPassword());
     }
 }
